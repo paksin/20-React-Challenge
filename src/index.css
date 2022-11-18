@@ -1,0 +1,138 @@
+.container{
+  padding: 0;
+}
+.content {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+.content .content-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+.content:hover .content-overlay {
+  opacity: 1;
+}
+.content img {
+  width: 100%;
+}
+img {
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.content:hover .content-details {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+.content-details h5 {
+  color: #fff;
+  font-weight: 500;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+.content-details p {
+  color: #fff;
+  font-size: 0.8em;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.fadeIn-bottom {
+  top: 80%;
+}
+
+.project-div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.contact-form-div{
+  padding-bottom: 1rem;
+}
+.contact-form-div label{
+  padding-bottom: 0.5rem;
+}
+
+.contact-form-div input{
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+.contact-form-div textarea{
+  width: 100%;
+  height: 150px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+.error-text-div {
+  padding-bottom: 1rem;
+}
+
+.error-text-div p{
+  color: red;
+}
+
+.contact-info-div {
+  padding-top: 2rem;
+  line-height: 0.5;
+}
+
+.resume-div{
+  padding-bottom: 1rem;
+}
+
+.resume-div a{
+  text-decoration: none;
+}
+
+@media screen and (max-width: 567px) {
+    .content-details h5 {
+        color: #fff;
+        font-weight: 500;
+        margin-bottom: 0.5em;
+        font-size:0.8em;
+
+      }
+      .content-details p {
+        color: #fff;
+        font-size: 0.5em;
+        margin-bottom: 0.em;
+      }
+  }
