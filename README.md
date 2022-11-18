@@ -11,4 +11,4 @@ Welcome to my portfolio, where you could discover more about myself as a Full-St
 ## Mock-Up
 
 ![PC Screenshot](src/assets/screenshot.png)
-![Mobile Screenshot](src/assets/mobilescreenshot.png){:height="300px" }
+![Mobile Screenshot](src/assets/mobilescreenshot.png)
