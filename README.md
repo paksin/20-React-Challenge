@@ -10,4 +10,5 @@ Welcome to my portfolio, where you could discover more about myself as a Full-St
 
 ## Mock-Up
 
-![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](src/assets/screenshot.png)
+![PC Screenshot](src/assets/screenshot.png)
+![Mobile Screenshot](src/assets/mobilescreenshot.png)
