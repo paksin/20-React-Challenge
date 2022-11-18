@@ -25,15 +25,12 @@ export default function PortfolioContainer() {
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
-  var styles = {
-    padding: "20px 20%",
-  };
   var style1 = {
     margin: "0 0 100px 0",
   };
   return (
     <div style={style1}>
-      <nav className="navbar navbar-expand-lg bg-light" style={styles}>
+      <nav className="navbar navbar-expand-lg bg-light">
         <div className="container-fluid px-0">
           <div className="navbar-brand">
             <h1>Pak Sin</h1>
@@ -58,9 +55,7 @@ export default function PortfolioContainer() {
         </div>
       </nav>
       <main>
-        <div className="" style={styles}>
-          {renderPage()}
-        </div>
+        <div className="big-divs">{renderPage()}</div>
       </main>
     </div>
   );

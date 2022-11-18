@@ -1,3 +1,11 @@
+.navbar{
+  padding: 20px 20%;
+}
+
+.big-divs{
+  padding: 20px 20%;
+}
+
 .container{
   padding: 0;
 }
@@ -134,5 +142,12 @@ img {
         color: #fff;
         font-size: 0.5em;
         margin-bottom: 0.em;
+      }
+      .navbar{
+        padding: 20px 10%;
+      }
+      
+      .big-divs{
+        padding: 20px 10%;
       }
   }
