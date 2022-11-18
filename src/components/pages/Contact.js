@@ -66,7 +66,6 @@ export default function Contact() {
             </form>
             <div className="contact-info-div">
               <p>Email: sinpakyin@gmail.com</p>
-              <p>Phone: +1 (416) 518-9511</p>
             </div>
           </div>
         </div>
