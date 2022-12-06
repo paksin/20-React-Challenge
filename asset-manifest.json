@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/20-React-Challenge/static/css/main.193121fa.css",
-    "main.js": "/20-React-Challenge/static/js/main.577d8a2b.js",
+    "main.js": "/20-React-Challenge/static/js/main.43ea3f79.js",
+    "static/media/6ixauto.png": "/20-React-Challenge/static/media/6ixauto.eaceac6324fe05c02146.png",
     "static/media/fa-solid-900.svg": "/20-React-Challenge/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
     "static/media/fa-brands-400.svg": "/20-React-Challenge/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
     "static/media/profile.png": "/20-React-Challenge/static/media/profile.eb13cb82b481bad0cc2d.png",
@@ -21,10 +22,10 @@
     "static/media/fa-regular-400.woff2": "/20-React-Challenge/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
     "index.html": "/20-React-Challenge/index.html",
     "main.193121fa.css.map": "/20-React-Challenge/static/css/main.193121fa.css.map",
-    "main.577d8a2b.js.map": "/20-React-Challenge/static/js/main.577d8a2b.js.map"
+    "main.43ea3f79.js.map": "/20-React-Challenge/static/js/main.43ea3f79.js.map"
   },
   "entrypoints": [
     "static/css/main.193121fa.css",
-    "static/js/main.577d8a2b.js"
+    "static/js/main.43ea3f79.js"
   ]
 }
