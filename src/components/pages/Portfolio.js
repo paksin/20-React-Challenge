@@ -1,10 +1,27 @@
 import React from "react";
+import sixLogo from "../../assets/6ixauto.png";
 
 export default function Portfolio() {
   return (
     <div className="container">
       <h3>Portfolio</h3>
       <div className="row">
+        <div className="col-lg-6 project-div">
+          <div className="content">
+            <a href="https://github.com/paksin/6ixAuto">
+              <div class="content-overlay"></div>
+              <img src={sixLogo} alt="6ix-auto" />
+              <div className="content-details fadeIn-bottom">
+                <h5 className="content-title">6ixAuto</h5>
+                <p className="content-text">Group Project</p>
+                <p className="content-text">
+                  MongoDB, Express, React, Node (MERN), Bootstrap, GraphQL,
+                  Cloudinary, Animate.CSS, HTML, CSS, JS
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
         <div className="col-lg-6 project-div">
           <div className="content">
             <a href="https://github.com/paksin/Get-A-Job">
@@ -19,8 +36,8 @@ export default function Portfolio() {
                 <h5 className="content-title">Get A Job!</h5>
                 <p className="content-text">Group Project</p>
                 <p className="content-text">
-                  HTML, CSS, JS, Bootstrap, Passport.JS, jQuery, Express.JS,
-                  Handlebars.JS, MySQL, Sequelize
+                  Bootstrap, Passport.JS, jQuery, Express.JS, Handlebars.JS,
+                  MySQL, Sequelize, HTML, CSS, JS
                 </p>
               </div>
             </a>
@@ -49,6 +66,26 @@ export default function Portfolio() {
         </div>
         <div className="col-lg-6 project-div">
           <div className="content">
+            <a href="https://github.com/paksin/21-MERN-Challenge">
+              <div class="content-overlay"></div>
+              <img
+                src={
+                  "https://github.com/paksin/21-MERN-Challenge/raw/main/asset/search.png"
+                }
+                alt="google-book-search"
+              />
+              <div className="content-details fadeIn-bottom">
+                <h5 className="content-title">Google Books Search</h5>
+                <p className="content-text">Personal Project</p>
+                <p className="content-text">
+                  Bootstrap, MongoDB, Express, React, Node (MERN), HTML, CSS, JS
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div className="col-lg-6 project-div">
+          <div className="content">
             <a href="https://github.com/paksin/14-MVC-Challenge">
               <div class="content-overlay"></div>
               <img
@@ -61,7 +98,7 @@ export default function Portfolio() {
                 <h5 className="content-title">The Tech Blog</h5>
                 <p className="content-text">Personal Project</p>
                 <p className="content-text">
-                  HTML, CSS, JS, Express.JS, Handlebars.JS, MySQL, Sequelize
+                  Express.JS, Handlebars.JS, MySQL, Sequelize, HTML, CSS, JS
                 </p>
               </div>
             </a>
@@ -81,7 +118,7 @@ export default function Portfolio() {
                 <h5 className="content-title">Note Taker</h5>
                 <p className="content-text">Personal Project</p>
                 <p className="content-text">
-                  HTML, CSS, JS, Bootstrap, Express.JS
+                  Bootstrap, Express.JS, HTML, CSS, JS
                 </p>
               </div>
             </a>
@@ -101,8 +138,8 @@ export default function Portfolio() {
                 <h5 className="content-title">JATE Text Editor</h5>
                 <p className="content-text">Personal Project</p>
                 <p className="content-text">
-                  HTML, CSS, JS, Express.JS, IndexedDB, Service Worker, Webpack,
-                  Workbox (PWAs)
+                  Express.JS, IndexedDB, Service Worker, Webpack, Workbox
+                  (PWAs), HTML, CSS, JS
                 </p>
               </div>
             </a>
