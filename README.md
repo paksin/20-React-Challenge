@@ -2,7 +2,7 @@
 
 ## Deployed Link
 
-https://paksin.github.io/20-React-Challenge
+https://paksin.github.io/
 
 ## Description
 
