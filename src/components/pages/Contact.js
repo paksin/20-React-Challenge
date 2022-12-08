@@ -31,7 +31,11 @@ export default function Contact() {
         <div className="">
           <h3>Contact</h3>
           <div>
-            <form>
+            <form
+              action="mailto:sinpakyin@gmail.com"
+              method="post"
+              enctype="text/plain"
+            >
               <div className="contact-form-div">
                 <label>Name:</label>
                 <br></br>
@@ -64,9 +68,6 @@ export default function Contact() {
               )}
               <input type="submit" value="Submit" />
             </form>
-            <div className="contact-info-div">
-              <p>Email: sinpakyin@gmail.com</p>
-            </div>
           </div>
         </div>
       </div>
