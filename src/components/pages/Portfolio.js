@@ -9,7 +9,7 @@ export default function Portfolio() {
         <div className="col-lg-6 project-div">
           <div className="content">
             <a href="https://github.com/paksin/6ixAuto">
-              <div class="content-overlay"></div>
+              <div className="content-overlay"></div>
               <img src={sixLogo} alt="6ix-auto" />
               <div className="content-details fadeIn-bottom">
                 <h5 className="content-title">6ixAuto</h5>
@@ -25,7 +25,7 @@ export default function Portfolio() {
         <div className="col-lg-6 project-div">
           <div className="content">
             <a href="https://github.com/paksin/Get-A-Job">
-              <div class="content-overlay"></div>
+              <div className="content-overlay"></div>
               <img
                 src={
                   "https://raw.githubusercontent.com/paksin/Get-A-Job/main/public/imgs/homepg.png"
@@ -47,7 +47,7 @@ export default function Portfolio() {
         <div className="col-lg-6 project-div">
           <div className="content">
             <a href="https://github.com/paksin/FindFlix-Project">
-              <div class="content-overlay"></div>
+              <div className="content-overlay"></div>
               <img
                 src={
                   "https://github.com/paksin/FindFlix-Project/raw/main/assets/search-result.png"
@@ -67,7 +67,7 @@ export default function Portfolio() {
         <div className="col-lg-6 project-div">
           <div className="content">
             <a href="https://github.com/paksin/21-MERN-Challenge">
-              <div class="content-overlay"></div>
+              <div className="content-overlay"></div>
               <img
                 src={
                   "https://github.com/paksin/21-MERN-Challenge/raw/main/asset/search.png"
@@ -87,7 +87,7 @@ export default function Portfolio() {
         <div className="col-lg-6 project-div">
           <div className="content">
             <a href="https://github.com/paksin/14-MVC-Challenge">
-              <div class="content-overlay"></div>
+              <div className="content-overlay"></div>
               <img
                 src={
                   "https://github.com/paksin/14-MVC-Challenge/raw/main/assets/Homepage.png"
@@ -107,7 +107,7 @@ export default function Portfolio() {
         <div className="col-lg-6 project-div">
           <div className="content">
             <a href="https://github.com/paksin/11-Express-Challenge">
-              <div class="content-overlay"></div>
+              <div className="content-overlay"></div>
               <img
                 src={
                   "https://github.com/paksin/11-Express-Challenge/raw/main/assets/screenshot.png"
@@ -127,7 +127,7 @@ export default function Portfolio() {
         <div className="col-lg-6 project-div">
           <div className="content">
             <a href="https://github.com/paksin/19-PWA-Challenge">
-              <div class="content-overlay"></div>
+              <div className="content-overlay"></div>
               <img
                 src={
                   "https://github.com/paksin/19-PWA-Challenge/raw/main/assets/webpage.png"
@@ -148,7 +148,7 @@ export default function Portfolio() {
         <div className="col-lg-6 project-div">
           <div className="content">
             <a href="https://github.com/paksin/12-SQL-Challenge">
-              <div class="content-overlay"></div>
+              <div className="content-overlay"></div>
               <img
                 src={
                   "https://github.com/paksin/12-SQL-Challenge/raw/main/assets/menu.png"

@@ -18,7 +18,7 @@ export default function About() {
             of Waterloo.
           </p>
         </div>
-        <div class="col-md-4">
+        <div className="col-md-4">
           <img src={profilepic} alt="profile" width="100%" />
         </div>
       </div>
