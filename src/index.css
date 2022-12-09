@@ -117,17 +117,8 @@
   color: red;
 }
 
-.contact-info-div {
-  padding-top: 2rem;
-  line-height: 0.5;
-}
-
 .big-resume-div{
   margin: 0;
-}
-
-.resume-details-div h5{
-  color: rgb(0, 39, 57);
 }
 
 .resume-div{
@@ -147,20 +138,14 @@
   font-size: 15px;
 }
 
-.resume-div p{
-  font-size: 15px;
+.resume-details-div h4{
+  color: rgb(0, 39, 57);
+  margin-bottom: 10px;
 }
 
-.resume-name p{
-  margin-left: 5px;
-}
-
-.contact-info a{
-  margin-left: 5px;
-}
-
-.li-icon{
-  margin-left: 1px;
+.duration-p {
+  line-height: 0.5;
+  font-size: 13px;
 }
 
 .about-div{
@@ -171,10 +156,12 @@
 .about-div p{
   color: white;
   margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 .about-div h4{
   color: white;
+  margin-bottom: 2px;
 }
 
 .about-div h6{
@@ -193,8 +180,28 @@
   margin: 0 10px;
 }
 
+.resume-name p{
+  margin-left: 5px;
+}
+
+.contact-div{
+  margin-top: 20px;
+}
+
+.contact-info {
+  margin-top: 5px;
+}
+
+.contact-info a{
+  margin-left: 5px;
+}
+
 .propic-div{
   margin: 20px 0;
+}
+
+.li-icon{
+  margin-left: 1px;
 }
 
 .resume-details-div{
@@ -202,9 +209,21 @@
   padding-right: 20px;
 }
 
+.cert-div{
+  padding-bottom: 1px;
+}
+
+.edu-div{
+  padding-bottom: 1px;
+}
+
+.degree-name p{
+  line-height: 0.5;
+}
+
 @media screen and (max-width: 991px) {
   .about-div{
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
   }
   .resume-details-div{
     padding-top: 1rem;

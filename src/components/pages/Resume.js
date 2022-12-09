@@ -9,7 +9,7 @@ export default function Blog() {
     <div className="container">
       <div className="row">
         <div className="">
-          <h3>Resume</h3>
+          <h3>Resumé</h3>
           <div className="resume-div">
             <div className="resume-download-div d-flex">
               <p>Download Here</p>
@@ -53,7 +53,7 @@ export default function Blog() {
               </div>
               <div className="resume-details-div col-lg-9">
                 <div className="skill-div">
-                  <h5>Skills</h5>
+                  <h4>Skills</h4>
                   <p>
                     React, Bootstrap, jQuery, Responsive Design, HTML, CSS,
                     JavaScript, Python
@@ -65,30 +65,32 @@ export default function Blog() {
                 </div>
                 <hr></hr>
                 <div className="cert-div">
-                  <h5>Certifications</h5>
+                  <h4>Certifications</h4>
                   <h6>University of Toronto Web Development Bootcamp</h6>
-                  <p>Sep - Nov 2022</p>
+                  <p className="duration-p">Sep - Nov 2022</p>
                   <h6>CFA Level 1</h6>
-                  <p>Jul 2021</p>
+                  <p className="duration-p">Jul 2021</p>
                   <h6>Conduct and Practices Handbook Course</h6>
-                  <p>Dec 2021</p>
+                  <p className="duration-p">Dec 2021</p>
                   <h6>Canadian Securities Course</h6>
-                  <p>Sep 2020</p>
+                  <p className="duration-p">Sep 2020</p>
                 </div>
                 <hr></hr>
                 <div className="edu-div">
-                  <h5>Education</h5>
+                  <h4>Education</h4>
                   <h6>University of Waterloo</h6>
-                  <p>2015-2019</p>
-                  <p>Bachelor of Mathematics,</p>
-                  <p>Mathematics and Business Administration, Honours</p>
+                  <p className="duration-p">2015-2019</p>
+                  <div className="degree-name">
+                    <p>Bachelor of Mathematics,</p>
+                    <p>Mathematics and Business Administration, Honours</p>
+                  </div>
                 </div>
                 <hr></hr>
                 <div className="exp-div">
-                  <h5>Experience</h5>
+                  <h4>Experience</h4>
                   <div className="job-info">
                     <h6>Direct Investing Representative, TD Wealth</h6>
-                    <p>Oct 2021 - Aug 2022</p>
+                    <p className="duration-p">Oct 2021 - Aug 2022</p>
                     <ul>
                       <li>
                         Perform client instructions in accordance with industry
@@ -109,7 +111,7 @@ export default function Blog() {
                   </div>
                   <div className="job-info">
                     <h6>Trilingual EasyLine Specialist, TD Canada Trust</h6>
-                    <p>Mar 2020 - Oct 2021</p>
+                    <p className="duration-p">Mar 2020 - Oct 2021</p>
                     <ul>
                       <li>
                         Advised and addressed customers’ day-to-day banking
@@ -130,7 +132,7 @@ export default function Blog() {
                       Research Assistant Intern, Centre for Addiction and Mental
                       Health
                     </h6>
-                    <p>Jan 2017 – Aug 2017</p>
+                    <p className="duration-p">Jan 2017 – Aug 2017</p>
                     <ul>
                       <li>
                         Duties include database maintenance, organizing and

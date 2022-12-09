@@ -44,7 +44,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             currentPage === "Resume" ? "nav-link active px-2" : "nav-link"
           }
         >
-          Resume
+          Resumé
         </a>
       </li>
     </ul>
