@@ -58,7 +58,7 @@ export default function Blog() {
                     React, Bootstrap, jQuery, Responsive Design, HTML, CSS,
                     JavaScript, Python
                   </p>
-                  <p>
+                  <p className="last-p">
                     MongoDB, Mongoose, Express, Node, GraphQL, REST API, MySQL,
                     Sequelize, Passport, Cloudinary
                   </p>
@@ -73,7 +73,7 @@ export default function Blog() {
                   <h6>Conduct and Practices Handbook Course</h6>
                   <p className="duration-p">Dec 2021</p>
                   <h6>Canadian Securities Course</h6>
-                  <p className="duration-p">Sep 2020</p>
+                  <p className="duration-p last-p">Sep 2020</p>
                 </div>
                 <hr></hr>
                 <div className="edu-div">
@@ -82,7 +82,9 @@ export default function Blog() {
                   <p className="duration-p">2015-2019</p>
                   <div className="degree-name">
                     <p>Bachelor of Mathematics,</p>
-                    <p>Mathematics and Business Administration, Honours</p>
+                    <p className="last-p">
+                      Mathematics and Business Administration, Honours
+                    </p>
                   </div>
                 </div>
                 <hr></hr>

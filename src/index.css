@@ -210,15 +210,29 @@
 }
 
 .cert-div{
+  padding-top: 1px;
   padding-bottom: 1px;
 }
 
 .edu-div{
+  padding-top: 1px;
   padding-bottom: 1px;
 }
 
 .degree-name p{
   line-height: 0.5;
+}
+
+.last-p{
+  margin-bottom: 0.5rem;
+}
+
+.job-info{
+  padding-top: 5px;
+}
+
+.exp-div ul{
+  padding-left: 20px;
 }
 
 @media screen and (max-width: 991px) {
@@ -249,6 +263,9 @@
       
       .big-divs{
         padding: 20px 10%;
+      }
+      .degree-name p{
+        line-height: 1;
       }
 
 }
