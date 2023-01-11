@@ -1,5 +1,6 @@
 import React from "react";
 import sixLogo from "../../assets/6ixauto.png";
+import muji from "../../assets/muji.png";
 
 export default function Portfolio() {
   return (
@@ -60,6 +61,19 @@ export default function Portfolio() {
                 <p className="content-text">
                   HTML, CSS, JS, Bootstrap, OMDB API, Youtube API
                 </p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div className="col-lg-6 project-div">
+          <div className="content">
+            <a href="https://github.com/paksin/muji-email-newsletter">
+              <div className="content-overlay"></div>
+              <img src={muji} alt="muji-email-newsletter" />
+              <div className="content-details fadeIn-bottom">
+                <h5 className="content-title">Muji Email Newsletter Demo</h5>
+                <p className="content-text">Personal Project</p>
+                <p className="content-text">HTML, CSS, PutsMail</p>
               </div>
             </a>
           </div>
