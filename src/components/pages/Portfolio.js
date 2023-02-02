@@ -81,7 +81,7 @@ export default function Portfolio() {
         </div>
         <div className="col-lg-6 project-div">
           <div className="content">
-            <a href="https://paksin.github.io/muji-email-confirmation/">
+            <a href="https://github.com/paksin/muji-email-confirmation">
               <div className="content-overlay"></div>
               <img src={muji2} alt="muji-email-confirmation" />
               <div className="content-details fadeIn-bottom">
