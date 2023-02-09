@@ -12,7 +12,7 @@ export default function About() {
             completed the Full-Stack Web Development Bootcamp from University of
             Toronto School of Continuing Studies. Skilled in HTML, CSS,
             Javascript, JQuery, Bootstrap, Node.js, MySQL, MongoDB, Express,
-            Handelbars.js, ReactJS, and python, and experience with industry
+            Handlebars.js, ReactJS, and Python, and experience with industry
             standard applications including Github and Heroku. Graduated with a
             Mathematics/Business Administration, Honours degree from University
             of Waterloo.
