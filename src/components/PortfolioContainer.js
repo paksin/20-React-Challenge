@@ -9,7 +9,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState("About");
+  const [currentPage, setCurrentPage] = useState("Portfolio");
 
   const renderPage = () => {
     if (currentPage === "About") {
