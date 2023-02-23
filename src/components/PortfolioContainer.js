@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Footer from "./Footer";
 import NavTabs from "./NavTabs";
 import Portfolio from "./pages/Portfolio";
+import Loading from "./pages/Loading";
 import About from "./pages/About";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
@@ -9,9 +10,15 @@ import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState("Portfolio");
+  const [currentPage, setCurrentPage] = useState("Loading");
 
   const renderPage = () => {
+    if (currentPage === "Loading") {
+      setTimeout(() => {
+        handlePageChange("Portfolio");
+      }, 5000);
+      return <Loading />;
+    }
     if (currentPage === "About") {
       return <About />;
     }
