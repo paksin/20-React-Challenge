@@ -8,14 +8,16 @@ export default function About() {
         <div className="col-md-8">
           <h3>About Me</h3>
           <p>
-            Full-Stack Developer with a financial background, who recently
-            completed the Full-Stack Web Development Bootcamp from University of
-            Toronto School of Continuing Studies. Skilled in HTML, CSS,
-            Javascript, JQuery, Bootstrap, Node.js, MySQL, MongoDB, Express,
-            Handlebars.js, ReactJS, and Python, and experience with industry
-            standard applications including Github and Heroku. Graduated with a
-            Mathematics/Business Administration, Honours degree from University
-            of Waterloo.
+            Dynamic Financial Professional with a strong foundation in
+            Mathematics and Computer Science, complemented by a Full-Stack Web
+            Development certification from the University of Toronto School of
+            Continuing Studies. Proficient in a diverse range of technologies,
+            including React, Bootstrap, Node.js, MongoDB, Express,
+            Handlebars.js, MySQL, jQuery, HTML, CSS, JavaScript, and Python.
+            Experienced in Agile methodologies, I hold an Honours degree in
+            Mathematics and Business Administration from the University of
+            Waterloo, blending analytical expertise with technical acumen to
+            drive innovative solutions.
           </p>
         </div>
         <div className="col-md-4">

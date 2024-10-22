@@ -27,7 +27,7 @@ export default function Blog() {
                     <h4>PAK SIN</h4>
                     <p>(he/him)</p>
                   </div>
-                  <h6>Full-Stack Developer</h6>
+                  <h6>Client Relations Manager</h6>
                 </div>
                 <div className="contact-div">
                   <div className="contact-info d-flex align-items-center">
@@ -55,18 +55,19 @@ export default function Blog() {
                 <div className="skill-div">
                   <h4>Skills</h4>
                   <p>
-                    React, Bootstrap, jQuery, Responsive Design, HTML, CSS,
-                    JavaScript, Python
+                    Attention to Detail, Problem Solving, Time Management,
+                    Communication, Multi-Tasking, Team Player, Trilingual,
+                    Microsoft Suite, Python, SQL, GraphQL, React.JS
                   </p>
                   <p className="last-p">
-                    MongoDB, Mongoose, Express, Node, GraphQL, REST API, MySQL,
-                    Sequelize, Passport, Cloudinary
+                    {/* MongoDB, Mongoose, Express, Node, GraphQL, REST API, MySQL,
+                    Sequelize, Passport, Cloudinary */}
                   </p>
                 </div>
                 <hr></hr>
                 <div className="cert-div">
                   <h4>Certifications</h4>
-                  <h6>University of Toronto Web Development Bootcamp</h6>
+                  <h6>University of Toronto Web Development Program</h6>
                   <p className="duration-p">Sep - Nov 2022</p>
                   <h6>CFA Level 1</h6>
                   <p className="duration-p">Jul 2021</p>
@@ -91,6 +92,45 @@ export default function Blog() {
                 <div className="exp-div">
                   <h4>Experience</h4>
                   <div className="job-info">
+                    <h6>Client Relations Manager, PBD Wealth Management</h6>
+                    <p className="duration-p">Aug 2023 - Present</p>
+                    <ul>
+                      <li>
+                        Assisted advisors in the development and implementation
+                        of comprehensive financial plans for clients, including
+                        retirement projections and insurance analysis
+                      </li>
+                      <li>
+                        Coordinated implementation and testing for new digital
+                        solutions for investment clients and business solutions
+                        from vendors
+                      </li>
+                      <li>
+                        Provided support and innovative solutions to help
+                        partners to adapt to new industry tools
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="job-info">
+                    <h6>Freelance Frontend Developer, Jasmine AI</h6>
+                    <p className="duration-p">Apr 2023 - Feb 2024</p>
+                    <ul>
+                      <li>
+                        Developed modular and maintainable code using modern web
+                        development frameworks such as Tailwind CSS and React
+                      </li>
+                      <li>
+                        Collaborated with product designers and stakeholders to
+                        implement responsive and visually appealing user
+                        interfaces
+                      </li>
+                      <li>
+                        Worked closely with back-end developers to integrate
+                        user-facing elements with server-side logic
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="job-info">
                     <h6>Direct Investing Representative, TD Wealth</h6>
                     <p className="duration-p">Oct 2021 - Aug 2022</p>
                     <ul>
@@ -108,6 +148,27 @@ export default function Blog() {
                         customer and offer creative solutions by learning about
                         TD Direct Investing products and services and their
                         applicability to customer/market situations
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="job-info">
+                    <h6>
+                      Team Leader for Business Improvements, TD Canada Trust
+                    </h6>
+                    <p className="duration-p">Jun 2020 - Oct 2021</p>
+                    <ul>
+                      <li>
+                        Collaborated with stakeholders to identify areas for
+                        business improvement, including Business Processes and
+                        Client Experience
+                      </li>
+                      <li>
+                        Developed custom solutions based on user stories and
+                        feedbacks from Clients and Colleagues
+                      </li>
+                      <li>
+                        Report findings to different business pillars for
+                        implementation and testing
                       </li>
                     </ul>
                   </div>
