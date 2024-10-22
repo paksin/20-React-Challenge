@@ -12,12 +12,11 @@ export default function About() {
             Mathematics and Computer Science, complemented by a Full-Stack Web
             Development certification from the University of Toronto School of
             Continuing Studies. Proficient in a diverse range of technologies,
-            including React, Bootstrap, Node.js, MongoDB, Express,
-            Handlebars.js, MySQL, jQuery, HTML, CSS, JavaScript, and Python.
-            Experienced in Agile methodologies, I hold an Honours degree in
-            Mathematics and Business Administration from the University of
-            Waterloo, blending analytical expertise with technical acumen to
-            drive innovative solutions.
+            including Python, React, Bootstrap, MongoDB, Express, SQL, jQuery,
+            HTML, CSS, JS, and various Libraries. Experienced in Agile
+            methodologies, I hold an Honours degree in Mathematics and Business
+            Administration from the University of Waterloo, blending analytical
+            expertise with technical acumen to drive innovative solutions.
           </p>
         </div>
         <div className="col-md-4">
